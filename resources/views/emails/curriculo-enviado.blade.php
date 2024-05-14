@@ -1,11 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo Enviado</title>
-</head>
-<body>
-    <h1>Currículo Enviado</h1>
-</body>
-</html>
+@extends('layouts.app')
+
+@section('content')
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-body text-center">
+            <h1>Obrigado por enviar o seu currículo!</h1>
+            <p>Agora o seu currículo está em análise.</p>
+        </div>
+    </div>
+</div>
+
+@endsection
